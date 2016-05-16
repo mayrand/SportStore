@@ -137,7 +137,6 @@ new Product {ProductID = 5, Name = "P5"}
         [TestMethod]
         public void Generate_Category_Specific_Product_Count()
         {
-            216
         // Arrange
         // - create the mock repository
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
